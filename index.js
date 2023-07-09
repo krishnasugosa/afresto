@@ -46,10 +46,5 @@ function updateOnlineStatus() {
 }
 }
 
-window.addEventListener('beforeunload', function (event) {
-    event.preventDefault();
-    event.returnValue = '';
-    return 'Apakah Anda yakin ingin keluar dari website ini?';
-  });
 
 
